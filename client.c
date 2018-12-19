@@ -25,4 +25,5 @@ int main() {
     read(from_server, output, BUFFER_SIZE);
     printf("[client]-Server Output: %s\n\n", output);
   }
+ return 0;
 }
