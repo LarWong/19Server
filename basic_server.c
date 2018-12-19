@@ -29,7 +29,7 @@ int main() {
 
   while(1){
     from_client = server_handshake( &to_client );
-    printf("This server adds 13 to char (not rot13)\n");
+    printf("This server adds 13 to char (rot13)\n");
     while(read(from_client,input,BUFFER_SIZE)){
       input[strlen(input)] = '\0';
       printf("[server]-Client Input: %s\n",input);
